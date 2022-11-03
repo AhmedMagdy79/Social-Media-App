@@ -74,7 +74,6 @@ mongoose
         const server = app.listen(5000);
         const io = require("./socket").init(server);
         io.on('connection', socket => {
-            // console.log("dart ya seya3");
         })
     })
     .catch((err) => {
